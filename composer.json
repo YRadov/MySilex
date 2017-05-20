@@ -1,0 +1,21 @@
+{
+    "name": "radov/silex",
+    "description": "my_silex",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Yurii Radov",
+            "email": "radov.yuriy@ukr.net"
+        }
+    ],
+    "require": {
+        "silex/silex": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "."
+        }
+    }
+
+}
